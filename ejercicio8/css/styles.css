@@ -66,11 +66,12 @@ h1 {
 }
 
 #votesChart {
-    width: 100%;   /* El canvas ocupará el 100% del ancho del contenedor */
-    max-width: 500px; /* Tamaño máximo en pantallas grandes */
-    height: auto;  /* La altura se ajustará automáticamente */
-    margin: 0 auto; /* Centra el canvas */
+    width: 100%;         
+    max-width: 100%;     
+    height: auto;        
+    margin: 0 auto;      
 }
+
 
 #Config {
   margin: 20px auto;
