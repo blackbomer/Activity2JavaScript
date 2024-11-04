@@ -83,36 +83,37 @@ h1 {
     }
 
     .buttons button {
-        flex: 1 1 50%; 
-        max-width: 100%;
+        flex: 1 1 30%; 
+        max-width: 45%;
         padding: 10px 15px;
         font-size: 14px;
     }
 
     #votesChart {
-        margin: 0 auto;
-        display;
+        max-width: 90%;
+        height: auto;
+        
     }
 }
 
 
-@media (max-width: 200px) {
+@media (max-width: 600px) {
     .container {
         max-width: 100%;
         padding: 0 10px;
     }
 
     .buttons button {
-        flex: 1 1 50%; 
+        flex: 1 1 100%; 
         padding: 8px 12px;
-        font-size: 12px;
+        font-size: 15px;
         max-width: 100%;
     }
 
     
     
     h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
