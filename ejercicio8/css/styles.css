@@ -36,7 +36,7 @@
 .buttons button:focus {
   background-color: #007bff;
   color: white;
-  
+}
 .buttons button:hover {
   background-color: #8eafe2;
 }
