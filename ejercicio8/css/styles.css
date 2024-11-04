@@ -87,8 +87,8 @@ h1 {
     }
 
     #votesChart {
-        max-width: 90%;
-        height: auto;
+        margin: 0 auto;
+        display;
     }
 }
 
