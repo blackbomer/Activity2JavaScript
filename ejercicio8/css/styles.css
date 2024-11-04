@@ -70,7 +70,7 @@ h1 {
     margin: 0 auto;
     display: block;
     max-width: 400px;
-    height: auto;
+    height: 400px;
 }
 
 /* Media query para pantallas medianas (tabletas) */
