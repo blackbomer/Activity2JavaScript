@@ -107,7 +107,7 @@ h1 {
     }
 
     #votesChart {
-        max-width: 100%; /* Gráfico ocupa todo el ancho disponible */
+        max-width: 90%; /* Gráfico ocupa todo el ancho disponible */
         height: auto;
     }
 
