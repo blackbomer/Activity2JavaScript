@@ -65,6 +65,12 @@ h1 {
     background-color: #f8d7da;
 }
 
+#votesChart {
+    width: 100%;   /* El canvas ocupará el 100% del ancho del contenedor */
+    max-width: 500px; /* Tamaño máximo en pantallas grandes */
+    height: auto;  /* La altura se ajustará automáticamente */
+    margin: 0 auto; /* Centra el canvas */
+}
 
 #Config {
   margin: 20px auto;
