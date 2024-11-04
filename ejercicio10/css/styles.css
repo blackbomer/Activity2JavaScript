@@ -1,0 +1,55 @@
+/* Fondo de la página en gris claro */
+body {
+  background-color: #0c0b0b; /* Fondo de la página en gris claro */
+  color: #948e8e; /* Color de texto predeterminado para la página */
+  font-family: Arial, sans-serif;
+}
+
+/* Fondo oscuro y bordes contrastantes para el acordeón */
+.accordion-item {
+  background-color: #222; /* Fondo oscuro para el acordeón */
+  border: 1px solid #444; /* Borde oscuro */
+}
+
+/* Fondo oscuro y texto claro para los botones del acordeón */
+.accordion-button {
+  background-color: #333; /* Fondo del encabezado en estado cerrado */
+  color: #ccc; /* Texto claro */
+  font-weight: bold;
+  border: none; /* Sin borde adicional */
+}
+
+/* Fondo más oscuro para el encabezado del acordeón cuando está abierto */
+.accordion-button:not(.collapsed) {
+  background-color: #444; /* Fondo oscuro cuando está abierto */
+  color: #fff; /* Texto blanco */
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2); /* Sombra para separar */
+}
+
+/* Color de fondo y de texto cuando se hace hover */
+.accordion-button:hover {
+  background-color: #555; /* Fondo un poco más claro al hacer hover */
+  color: #fff;
+}
+
+/* Estilo para el contenido del acordeón */
+.accordion-body {
+  background-color: #1a1a1a; /* Fondo oscuro para el contenido */
+  color: #ddd; /* Texto claro */
+}
+
+/* Bordes entre los elementos del acordeón */
+.accordion-item + .accordion-item {
+  border-top: 1px solid #444;
+}
+
+/* Bordes redondeados en los extremos */
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.accordion-item:last-of-type .accordion-collapse {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}

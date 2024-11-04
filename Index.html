@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 10</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="ejercicio10/css/styles.css" />
+
+</head>
+<body>
+
+<div class="container my-5">
+  <h3>Actividad 2</h3>
+  <h2>Lista de ejercicios de la actividad:</h2>
+
+  <div class="accordion" id="accordionExample">
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Ejercicio 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 1 Mensajes y alertas (I)</h3>
+          <p>Modificar el script del fichero <code>ej1.html</code> para que:</p>
+          <ol>
+            <li>Todo el código JavaScript se encuentre en un archivo externo llamado <code>codigo.js</code> y el script siga funcionando de la misma manera.</li>
+            <li>Después del primer mensaje, se debe mostrar otro mensaje que diga "Soy el primer script".</li>
+          </ol>
+          <a href="ejercicio1/ej1.html" class="btn btn-primary">Mostrar ejercicio 1</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Ejercicio 2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 2: Mensajes y alertas (II)</h3>
+          <p>Modificar el script del fichero <code>ej2.html</code> para que:</p>
+          <ol>
+            <li>El mensaje que se muestra al usuario se almacene en una variable llamada <code>mensaje</code> y el funcionamiento del script sea el mismo.</li>
+            <li>El mensaje se muestre con una alerta, y no por consola; tal como se ve en la imagen. Tened en cuenta que en Safari se ve como en la imagen, pero otros navegadores cambiarán el estilo, esto no es un problema ni un error. Tened en cuenta también que, en mi caso, el mensaje muestra el botón "Tancar" ("Cerrar", en catalán) porque es el idioma por defecto de mi ordenador y de mi navegador; si tenéis vuestro entorno configurado en español o en inglés, saldrá en ese idioma, y es correcto que salga así ya que al ser una alerta del sistema no hay manera de cambiar el idioma.</li>
+          </ol>
+          <a href="ejercicio2/ej2.html" class="btn btn-primary">Mostrar ejercicio 2</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Ejercicio 3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 3: Mensajes y alertas (III)</h3>
+          <p>Modificar el script del fichero <code>ej3.html</code> para que:</p>
+          <ol>
+            <li>El mensaje se muestre con una ventana de confirmación, y no por consola ni con una alerta. Tal como se ve en la imagen (Tened en cuenta que en Safari se ve como en la imagen, pero otros navegadores cambiarán el estilo. Esto no es un problema ni un error).</li>
+            <li>Si se clica el botón de confirmación, debe por consola el mensaje <code>"Has clicado OK"</code> .</li>
+            <li>Si se clica el botón de cancelación, debe por consola el mensaje <code>"Has clicado Cancelar"</code>.</li>
+          </ol>
+          <a href="ejercicio3/ej3.html" class="btn btn-primary">Mostrar ejercicio 3</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Ejercicio 4
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 4 Manipular visibilidad de elementos (I)</h3>
+          <p><code>Modificar el código para que al pulsar "Seguir leyendo" se muestre el texto completo. Luego, cambiar el enlace a "Ocultar exceso de texto" para ocultarlo.</code></p>
+          <ol>
+            <li>Completad el código proporcionado para que cuando se pulse sobre el enlace <code>"Seguir leyendo"</code> se muestre completo el contenido de texto.</li>
+            <li>Además, una vez pulsado, el texto "Seguir leyendo" debe cambiar por <code>"Ocultar exceso de texto"</code>, y permitir volver a esconder el texto que acabamos de añadir.</li>
+            <li>Para este ejercicio no se debe usar el localStorage sinó una variable global.</li>
+          </ol>
+          <a href="ejercicio4/ej4.html" class="btn btn-primary">Mostrar ejercicio 4</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Ejercicio 5
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 5: Modificación listas</h3>
+          <p>Completad el código proporcionado para que se añadan nuevos elementos a la lista cada vez que se pulsa sobre el botón.</p>
+          <ol>
+            <li>Utilizad las funciones DOM para crear nuevos nodos y añadirlos a la lista existente. Cada nuevo elemento añadido debe tener como texto "Elemento X", siendo X el número de la posición que ocupa en la lista.</li>
+            <li>Además, añadid clases con bootstrap para que la lista y el botón tengan un diseño más moderno y limpio.</li>
+          </ol>
+          <a href="ejercicio5/ej5.html" class="btn btn-primary">Mostrar ejercicio 5</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Ejercicio 6
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 6: Manipular visibilidad de elementos (II)</h3>
+          <p>A partir de la página web proporcionada, completad el código JavaScript para que:</p>
+          <ol>
+            <li>Cuando se vuelva a pinchar sobre el mismo enlace, se muestre otra vez esa sección de contenidos</li>
+            <li>Completar el resto de enlaces de la página para que su comportamiento sea idéntico al del primer enlace</li>
+            <li>Cuando una sección se oculte, debe cambiar el mensaje del enlace asociado (Cambiar la palabra "ocultar" por "mostrar", y viceversa)</li>
+          </ol>
+            <a href="ejercicio6/ej6.html" class="btn btn-primary">Mostrar ejercicio 6</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Ejercicio 7
+        </button>
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 7: Formularios y validación de datos</h3>
+          <p>Construir un formulario de registro como el de la imagen, usando los elementos y clases de Bootstrap.</p>
+          <ol>
+            <li>Los campos deben estar distribuidos en dos columnas, pero en pantallas pequeñas debe haber una única columna, es decir: los inputs deben ocupar el 100% del width de la ventana. Usad las clases grid de Bootstrap con el breakpoint sm ("small") para lograr esto.</li>
+            <li>Por último, añadid validación al formulario. Para este ejercicio, basta con conseguir que todos los campos sean obligatorios y que salga un mensaje de error en rojo en los campos que no se han rellenado, tal como pasa en los ejemplos de la documentación de Bootstrap.</li>
+          </ol>
+          <a href="ejercicio7/ej7.html" class="btn btn-primary">Mostrar ejercicio 7</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Ejercicio 8
+        </button>
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 8: Gráficas con ChartJS</h3>
+          <p>En este ejercicio simularemos un recuento electoral. Supondremos que celebramos unas elecciones a las que se presentan 5 partidos.</p>
+          <ol>
+            <li>Tendremos 5 botones, uno para cada partido. Al clicar el botón de un partido, se añade un voto a ese partido.</li>
+            <li>Cada nuevo voto se verá reflejado al momento en un gráfico circular (Pie Chart o Doughnut chart), tal como se ve en la imagen.</li>
+            <li>También tendremos un botón de reset, que pondrá todos los votos a 0, y podremos volver a empezar la votación.</li>
+          </ol>
+          <a href="ejercicio8/ej8.html" class="btn btn-primary">Mostrar ejercicio 8</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          Ejercicio 9
+        </button>
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 9: Animación de gato caminando</h3>
+          <p>Comenzad con la página web proporcionada, que tiene un solo tag img de un GIF animado de un gato caminando.
+
+            <li>- Añadid un script en la parte inferior de la página, donde colocaremos todo el código.</li>
+            <li>- Cread una variable para almacenar una referencia al img del gato.</li>
+            <li>- Cambiad el estilo del img para que tenga un atributo "left" de "0px", para que comience a la izquierda de la pantalla.</li>
+            <li>- Cread una función llamada catWalk() que mueva el gato 10 píxeles a la derecha de donde comenzó, cambiando la propiedad CSS "left".</li>
+            <li>- Llamad a esta función cada 50 milisegundos. El gato ahora debería moverse por la pantalla de izquierda a derecha.</li></p>
+            <ol>
+              <li>Una vez conseguido lo anterior, cuando el gato llegue a la derecha de la pantalla, reinícialo en el lado izquierdo (left debe valer "0px"). Así que debería seguir caminando de izquierda a derecha por la pantalla, por los siglos de los siglos.</li>
+              <a href="ejercicio9/ej9-primerpunto.html" class="btn btn-primary">Mostrar esta parte del ejercicio 9</a>
+              <li>Por último, haced que cuando el gato llegue a la derecha de la pantalla, se mueva hacia atrás, y cuando llegue a la izquierda del todo, se vuelva a mover hacia la derecha. Debería seguir caminando de un lado a otro por los siglos de los siglos.</li>
+              <a href="ejercicio9/ej9.html" class="btn btn-primary">Mostrar esta parte del ejercicio 9</a>
+              <li>Esta es una opción que he probado, voltenado la imagen para dar la sensación que el gato gira</li>
+              <a href="ejercicio9/ej9-voltea.html" class="btn btn-primary">Mostrar esta parte del ejercicio 9</a>
+            </ol>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Ejercicio 10 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTen">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+          Ejercicio 10
+        </button>
+      </h2>
+      <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <h3>#EJERCICIO 10: Es este mismo menu principal</h3>
+          <p>Este último ejercicio consiste en crear una página inicial con:</p>
+          <ol>
+            <li>Links a los HTML de todos los ejercicios completados.</li>
+            <li>Añadir un botón de "Back" a cada uno de los ejercicios, que permita volver a la página inicial.</li>
+            <li>Simplemente podéis usar elementos link, por ejemplo, si queremos ir desde el index al ejercicio 7, usaremos href="ejercicio7/ej7.html". En cambio, para el botón de back, tendremos un href que nos llevará a index.html.</li>
+          </ol>
+          <li>Usad Bootstrap libremente para conseguir un buen diseño. Podéis usar iconos, botones, links, listas de bootstrap, etc.</li>
+          <li><code>En la carpeta del ejercicio 10 està el css utilizado para el Index.html.</code></li>
+          <li><code>Todas las páginas tienen boton para volver. En el codigo se marca el CSS utilizado para si estilo</code></li>
+          <li>He intentado visualizar Markdown de los ejercicios con las librerias disponibles en https://showdownjs.com/ pero finalmente, debido a que no tenia tiempo y no encontraba el error he optado por añadir el contenido manualemnte al HTML </li>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Enlace al JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
