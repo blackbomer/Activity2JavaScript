@@ -65,9 +65,7 @@ h1 {
     background-color: #f8d7da;
 }
 
-#votesChart {
-    width: 100%;         
-    max-width: 100%;     
+#votesChart {    
     height: auto;        
     margin: 0 auto;      
 }
