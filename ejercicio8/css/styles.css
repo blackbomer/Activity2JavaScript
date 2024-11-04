@@ -71,3 +71,38 @@
   max-width: 1%; 
   height: 1%; 
 }
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .buttons button {
+        flex: 1 1 100%; /* Los botones ocupan el ancho completo */
+        max-width: 100%;
+    }
+
+    #votesChart,
+    #Config {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .buttons button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    #votesChart,
+    #Config {
+        max-width: 100%;
+        height: auto;
+    }
+}
