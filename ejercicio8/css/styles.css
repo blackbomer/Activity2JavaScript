@@ -24,14 +24,14 @@ h1 {
 
 /* Botones de votación */
 .buttons button {
-    padding: 5px 20px;
+    padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #007bff;
     background-color: white;
     color: #007bff;
     border-radius: 5px;
     cursor: pointer;
-    flex: 1 1 45%; /* Ocupa casi la mitad del ancho en pantallas grandes */
+    flex: 1 1 45%; 
     max-width: 125px;
     box-sizing: border-box;
     transition: background-color 0.3s;
@@ -66,30 +66,24 @@ h1 {
 }
 
 #votesChart {
-    width: 100%;         /* El canvas ocupa el 100% del ancho del contenedor */
-    max-width: 600px;    /* Tamaño máximo en pantallas grandes */
-    min-width: 300px;    /* Tamaño mínimo para evitar que se vea demasiado pequeño */
-    height: auto;        /* Mantiene la proporción de altura */
-    margin: 0 auto;      /* Centra el canvas */
+    width: 100%;         
+    max-width: 600px;    
+    min-width: 300px;    
+    height: auto;        
+    margin: 0 auto;      
 }
 
 
-#Config {
-  margin: 20px auto;
-  display: block;
-  max-width: 1%; 
-  height: 1%; 
-}
 
 
-/* Media query para pantallas medianas (tabletas) */
+
 @media (max-width: 868px) {
     .container {
         max-width: 90%;
     }
 
     .buttons button {
-        flex: 1 1 50%; /* Los botones ocupan el ancho completo en tabletas */
+        flex: 1 1 50%; 
         max-width: 100%;
         padding: 10px 15px;
         font-size: 14px;
@@ -101,7 +95,7 @@ h1 {
     }
 }
 
-/* Media query para pantallas pequeñas (móviles) */
+
 @media (max-width: 600px) {
     .container {
         max-width: 100%;
@@ -109,14 +103,14 @@ h1 {
     }
 
     .buttons button {
-        flex: 1 1 50%; /* Ocupa el 100% del ancho en móviles */
+        flex: 1 1 50%; 
         padding: 8px 12px;
         font-size: 12px;
         max-width: 100%;
     }
 
     
-    /* Ajustes para el encabezado en móviles */
+    
     h1 {
         font-size: 20px;
     }
