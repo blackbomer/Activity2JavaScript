@@ -27,7 +27,7 @@ h1 {
     border: 2px solid #007bff;
     background-color: white;
     color: #007bff;
-    border-radius: 25px;
+    border-radius: 15px;
     cursor: pointer;
     flex: 1 1 100%; 
     max-width: 125px;
