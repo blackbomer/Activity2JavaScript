@@ -1,9 +1,19 @@
+/* Contenedor principal */
 .container {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    padding: 20px;
 }
 
+/* Encabezado */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Área de botones */
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +22,7 @@
     margin: 20px 0;
 }
 
+/* Botones de votación */
 .buttons button {
     padding: 10px 20px;
     font-size: 16px;
@@ -20,45 +31,46 @@
     color: #007bff;
     border-radius: 5px;
     cursor: pointer;
-    flex: 1 1 45%;
+    flex: 1 1 45%; /* Ocupa casi la mitad del ancho en pantallas grandes */
     max-width: 150px;
     box-sizing: border-box;
     transition: background-color 0.3s;
 }
 
-.buttons button:active {
-    background-color: #007bff;
-    color: white;
-}
-
+.buttons button:active,
 .buttons button:focus {
     background-color: #007bff;
     color: white;
+    outline: none;
 }
 
 .buttons button:hover {
     background-color: #8eafe2;
 }
 
+/* Botón de reinicio con estilo de alerta */
 .buttons .reset {
     border-color: #dc3545;
     color: #dc3545;
 }
 
-.buttons .reset:active {
+.buttons .reset:active,
+.buttons .reset:focus {
     background-color: #dc3545;
     color: white;
+    outline: none;
 }
 
 .buttons .reset:hover {
     background-color: #f8d7da;
 }
 
-#votesChart, #Config {
+/* Gráfico */
+#votesChart {
     margin: 0 auto;
     display: block;
     max-width: 400px;
-    height: 400px;
+    height: auto;
 }
 
 /* Media query para pantallas medianas (tabletas) */
@@ -68,16 +80,15 @@
     }
 
     .buttons button {
-        flex: 1 1 100%; /* Los botones ocupan el ancho completo */
+        flex: 1 1 100%; /* Los botones ocupan el ancho completo en tabletas */
         max-width: 100%;
-        padding: 10px 15px; /* Reducir el padding en pantallas más pequeñas */
-        font-size: 14px; /* Tamaño de fuente más pequeño */
+        padding: 10px 15px;
+        font-size: 14px;
     }
 
-    #votesChart,
-    #Config {
-        max-width: 90%; /* Gráficos ocupan casi todo el ancho */
-        height: auto; /* Altura automática para mantener la relación de aspecto */
+    #votesChart {
+        max-width: 90%;
+        height: auto;
     }
 }
 
@@ -89,14 +100,21 @@
     }
 
     .buttons button {
-        padding: 8px 12px; /* Reducir padding aún más en móviles */
-        font-size: 12px; /* Reducir tamaño de fuente en móviles */
+        flex: 1 1 100%; /* Ocupa el 100% del ancho en móviles */
+        padding: 8px 12px;
+        font-size: 12px;
+        max-width: 100%;
     }
 
-    #votesChart,
-    #Config {
-        max-width: 100%;
-        height: auto; /* Adaptar la altura al ancho */
+    #votesChart {
+        max-width: 100%; /* Gráfico ocupa todo el ancho disponible */
+        height: auto;
+    }
+
+    /* Ajustes para el encabezado en móviles */
+    h1 {
+        font-size: 20px;
     }
 }
+
 
